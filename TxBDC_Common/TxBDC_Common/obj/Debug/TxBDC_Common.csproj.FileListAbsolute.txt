@@ -1,0 +1,10 @@
+c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\bin\Debug\TxBDC_Common.dll
+c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\bin\Debug\TxBDC_Common.pdb
+c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.csprojResolveAssemblyReference.cache
+c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.dll
+c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.pdb
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Debug\TxBDC_Common.dll
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Debug\TxBDC_Common.pdb
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.dll
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.pdb
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Debug\TxBDC_Common.csprojResolveAssemblyReference.cache
