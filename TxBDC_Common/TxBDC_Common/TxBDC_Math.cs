@@ -8,6 +8,61 @@ namespace TxBDC_Common
 {
     public static class TxBDC_Math
     {
+        /// <summary>
+        /// This is the constant of 180 / pi
+        /// </summary>
+        public const double RadiansToDegrees = (180.0 / Math.PI);
+
+        /// <summary>
+        /// Given a cartesian coordinate, this function returns the angle from 0 to 360 degrees.
+        /// </summary>
+        public static double CartesianToPolar(double x, double y)
+        {
+            double result = Math.Atan(y / x) * RadiansToDegrees;
+            if (x < 0)
+            {
+                result += 180;
+            }
+            else if (y < 0)
+            {
+                result += 360;
+            }
+
+            return result;
+        }
+
+        /// <summary>
+        /// Calculates the mode of a list
+        /// </summary>
+        public static int Mode (List<int> original_list)
+        {
+            var groups = original_list.GroupBy(v => v);
+            int max_count = groups.Max(g => g.Count());
+            int mode = groups.First(g => g.Count() == max_count).Key;
+            return mode;
+        }
+
+        /// <summary>
+        /// Calculates the mode of a list
+        /// </summary>
+        public static long Mode(List<long> original_list)
+        {
+            var groups = original_list.GroupBy(v => v);
+            int max_count = groups.Max(g => g.Count());
+            long mode = groups.First(g => g.Count() == max_count).Key;
+            return mode;
+        }
+
+        /// <summary>
+        /// Calculates the mode of a list
+        /// </summary>
+        public static double Mode(List<double> original_list)
+        {
+            var groups = original_list.GroupBy(v => v);
+            int max_count = groups.Max(g => g.Count());
+            double mode = groups.First(g => g.Count() == max_count).Key;
+            return mode;
+        }
 
         /// <summary>
         /// A function that calculates the median of a list of numbers
@@ -44,6 +99,30 @@ namespace TxBDC_Common
             int halfIndex = numbers.Count() / 2;
             var sortedNumbers = numbers.OrderBy(n => n);
             long median;
+            if ((numberCount % 2) == 0)
+            {
+                int halfIndexMinus1 = halfIndex - 1;
+                median = (sortedNumbers.ElementAt(halfIndex) + sortedNumbers.ElementAt(halfIndexMinus1)) / 2;
+            }
+            else
+            {
+                median = sortedNumbers.ElementAt(halfIndex);
+            }
+
+            return median;
+        }
+
+        /// <summary>
+        /// A function that calculates the median of a list of numbers
+        /// </summary>
+        /// <param name="numbers">A list of numbers</param>
+        /// <returns>The median of the numbers in the list</returns>
+        public static int Median(List<int> numbers)
+        {
+            int numberCount = numbers.Count();
+            int halfIndex = numbers.Count() / 2;
+            var sortedNumbers = numbers.OrderBy(n => n);
+            int median;
             if ((numberCount % 2) == 0)
             {
                 int halfIndexMinus1 = halfIndex - 1;

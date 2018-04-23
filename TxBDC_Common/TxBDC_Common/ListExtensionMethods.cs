@@ -32,5 +32,16 @@ namespace TxBDC_Common
 
             return result;
         }
+
+        /// <summary>
+        /// Calculates the mode of a list
+        /// </summary>
+        public static T Mode<T> (this List<T> original_list)
+        {
+            var groups = original_list.GroupBy(v => v);
+            int max_count = groups.Max(g => g.Count());
+            T mode = groups.First(g => g.Count() == max_count).Key;
+            return mode;
+        }
     }
 }

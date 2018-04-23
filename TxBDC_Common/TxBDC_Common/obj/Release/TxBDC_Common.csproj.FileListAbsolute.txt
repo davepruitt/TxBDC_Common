@@ -6,3 +6,4 @@ Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Rel
 Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Release\TxBDC_Common.pdb
 Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.dll
 Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.pdb
+Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.csproj.CoreCompileInputs.cache
