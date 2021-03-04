@@ -1,9 +1,0 @@
-c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\bin\Release\TxBDC_Common.dll
-c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\bin\Release\TxBDC_Common.pdb
-c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.dll
-c:\users\dtp110020\documents\visual studio 2017\Projects\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.pdb
-Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Release\TxBDC_Common.dll
-Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\bin\Release\TxBDC_Common.pdb
-Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.dll
-Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.pdb
-Z:\TBI\Behavior Code\TxBDC_Common\TxBDC_Common\TxBDC_Common\TxBDC_Common\obj\Release\TxBDC_Common.csproj.CoreCompileInputs.cache
