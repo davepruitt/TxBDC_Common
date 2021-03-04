@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.15
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxBDC_Common", "TxBDC_Common\TxBDC_Common.csproj", "{16BE1AD3-98FD-4C43-B4E9-9485CA8E8500}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TxBDC_Common", "TxBDC_Common\TxBDC_Common.csproj", "{A4E677BE-20D6-463C-AF37-53599D3ED2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{16BE1AD3-98FD-4C43-B4E9-9485CA8E8500}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16BE1AD3-98FD-4C43-B4E9-9485CA8E8500}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16BE1AD3-98FD-4C43-B4E9-9485CA8E8500}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16BE1AD3-98FD-4C43-B4E9-9485CA8E8500}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4E677BE-20D6-463C-AF37-53599D3ED2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4E677BE-20D6-463C-AF37-53599D3ED2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4E677BE-20D6-463C-AF37-53599D3ED2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4E677BE-20D6-463C-AF37-53599D3ED2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {154954D5-0623-4380-A0C9-59FDCCF7D03E}
 	EndGlobalSection
 EndGlobal
